@@ -1,0 +1,84 @@
+
+ .div4 {
+ 	margin: 3rem auto;
+ 	padding: 0 1rem;
+ 	box-sizing: border-box;
+ }
+ h3 {
+ 	font-weight: 400;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	font-size: 1.8rem;
+ 	letter-spacing: 4.1px;
+ 	margin: 3rem auto;
+ }
+.product-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+.product-container {
+	min-width: 26rem;
+	height: 41.7rem;
+	padding: 0 6px;
+	background-color: #FFF;
+}
+.product-card {
+	padding-bottom: 16px;
+	cursor: pointer;
+	box-shadow: none;
+	transition: box-shadow 0.5s;
+}
+.product-card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.img-card {
+	min-width: 25rem;
+	height: 26.5rem;
+	background-image: url(https://www.danielwellington.com/media/staticbucket/media/catalog/product/d/w/dw00100348_petite_32_evergold_white.png?ecom2=true&format=jpg&canvas=1:1&width=400&quality=80&bg-color=F4F4F4);
+	background-position: center;
+	background-size: 100%;
+}
+.img1{
+	background-image: url(https://www.danielwellington.com/media/staticbucket/media/catalog/product/d/w/dw00100347_petite_32_evergold_black.png?ecom2=true&format=jpg&canvas=1:1&width=400&quality=80&bg-color=F4F4F4);
+}
+.img2 {
+	background-image: url(https://www.danielwellington.com/media/staticbucket/media/catalog/product/d/w/dw00400075_classic_bracelet_small_evergold_1.png?ecom2=true&format=jpg&canvas=1:1&width=576&quality=60&bg-color=F4F4F4);
+}
+.img3 {
+	background-image: url(https://www.danielwellington.com/media/staticbucket/media/catalog/product/d/w/dw00400080_classic_ring_56_yg.png?ecom2=true&format=jpg&canvas=1:1&width=576&quality=60&bg-color=F4F4F4);
+}
+.text-card {
+	background-color: rgb(0, 0, 0);
+	text-align: left;
+    margin: 10px 195px 0 17px;
+    padding-left: 4px;
+    color: #FFF;
+}
+.product-card-titlte {
+	text-transform: uppercase;
+	letter-spacing: 1.7px;
+	font-weight: normal;
+	margin: 7px 12px 0px 16px;
+	color: rgb(0, 8, 28);
+}
+.color-container {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	border: 1px solid black;
+	margin: 0px 0px 0px 17px;
+}
+.yellow {
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	background-color: rgb(205, 188, 122);
+}
+.product-price {
+	margin: 2px 0px 0px 17px;
+}
+.gold {
+	margin: 1px 17px;
+}
