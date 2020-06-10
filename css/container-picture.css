@@ -1,0 +1,78 @@
+.level-up-container {
+	height: 350px;
+}
+
+.level-up {
+	background-image: url(https://www.danielwellington.com/ecom2-image-bucket/mv3xw5mnbbp0/4PeIOxSrxf1gpVAs15jlV2/5cd447b07455d19ef14f3bb1ade38b55/40mm-dybala-2800x900.jpg?ecom2=true&format=jpg&width=1400&quality=80&bg-color=FFFFFF%201400w);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	position: relative;
+}
+
+.wrap__text-link {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	top: 43%;
+	left: 18%;
+}
+
+.wrap-text-level-up {
+	color: white;
+	text-transform: uppercase;
+}
+.text-level-up{
+	font-size: 6rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+.text-new-iconic-link {
+	font-size: 1.7rem;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+.text-worn-by-paulo-dybala{
+	font-size: 1rem;
+	font-weight: 200;
+	letter-spacing: 3px;
+	padding: 6px 0;
+}
+
+.container__double-picture{
+	display: flex;
+	margin-top: 1rem;
+	justify-content: center;
+}
+.pic1 {	
+	background-image: url(https://www.danielwellington.com/ecom2-image-bucket/mv3xw5mnbbp0/3THNxnBNAqbzOSo0XFoNh0/7a5492db29c9dd5a6d045ee9457c59c0/418_1000x1000px_Ayshmann__1_.jpg?ecom2=true&format=jpg&width=500&quality=75&bg-color=FFFFFF);
+}
+
+.pic2 {
+	background-image: url(https://www.danielwellington.com/ecom2-image-bucket/mv3xw5mnbbp0/7HGsGmgeDvz6YRwYQfBb97/3925401d8273cde1ff07b2504dc7a1b8/looks_for_her_hailey-1000x1000.jpg?ecom2=true&format=jpg&width=500&quality=75&bg-color=FFFFFF);
+}
+.picture {
+	width: 53.5rem;
+	height: 53.5rem;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:  1rem;
+	position: relative;
+}
+.wrap__pic1 {
+	left: 35%;
+}
+
+.wrap__pic2 {
+	left: -20%;
+}
+
+.text-looks {
+	font-size: 2.4rem;
+	font-weight: 200;
+	letter-spacing: 3px;
+	padding-bottom: 10px ;
+}
