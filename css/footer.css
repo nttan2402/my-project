@@ -1,0 +1,138 @@
+.footer {
+	max-width: 1140px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 3rem 2.5rem 0px !important;
+}
+.wrap__footer-list {
+	display: flex;
+	flex-direction: row;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 200;
+	margin-bottom: 2rem;
+}
+.footer__list-title {
+	min-width: 22rem;
+	padding-right: 2rem;
+	cursor: context-menu;
+}
+.footer__list {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0.5rem;
+}
+.footer__list-link {
+	padding: 0.4rem 0;
+}
+.footer__list-link a {
+	text-decoration: none;
+	color: #333;
+	letter-spacing: 0.5px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-transform: lowercase;
+}
+.footer__list-link:first-letter {
+	text-transform: uppercase;
+}
+.footer__list-link a:hover {
+	text-decoration: underline;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.2);
+}
+.custom-select i{
+  color: #000;
+  padding-left: 1.2rem;
+
+}
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: #fff;
+
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #333 transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #333;
+  padding: 8px 16px 8px 8px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.wrap__footer-item {
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+}
+
+.footer__item {
+	display: inline-flex;
+	flex-wrap: wrap;
+	
+}
+
+.footer__item-symbol{
+	display: inline-block;
+	min-width: 64px;
+	height: 100%;
+	max-height: 2.6rem;
+	margin: 0px 1.5rem 1rem 0px;
+}
+
+.footer__text{
+	text-align: center;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+}
+
+.app {
+	margin-bottom: 5rem;
+}
