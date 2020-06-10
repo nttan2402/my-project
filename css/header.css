@@ -1,0 +1,136 @@
+.header {
+	background-image: url(https://www.danielwellington.com/ecom2-image-bucket/mv3xw5mnbbp0/5lOLJrzyZgVQzJbzRHc9VG/0c741f6a33a804331b04cb9de939d84f/yg-hero-top-2800x1100.jpg?ecom2=true&format=jpg&width=2800&quality=80&bg-color=FFFFFF);
+	width: 100%;
+	height: 530px;
+	background-size: cover;
+	color: var(--white-color);
+}
+.grid {
+	height: 70px;
+}
+.header__navbar {
+	display: flex;
+	justify-content: space-between;
+}
+.header__navbar-list {
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+	font-size: 1.5rem;
+	margin-top: 2.5rem;
+}
+.header__navbar-item{
+	margin-right: 10px;
+}
+.header-menu {
+	display: flex;
+	justify-content: center;
+	background-color:  rgba(39, 39, 39, 0.2);
+	text-align: center;
+
+}
+.header-menu-item{
+	list-style: none;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 3px;
+	cursor: pointer;
+	min-width: 200px;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.header-menu-item:hover {
+	text-decoration: underline;
+}
+
+.list-all-watches, .sub-accessories, .sub-watch-bands  {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.75);
+	display: none;
+	top: 100%;
+	min-width: 200px;
+	box-sizing: border-box;
+}
+
+.sub-all-watches, .sub-iconic-link, .sub-class, .sub-info{
+	list-style: none;
+	padding-left: 5px;
+	margin: 10px 30px;
+	letter-spacing: 0;
+	text-align: left;
+}
+.header-menu-item:hover .list-all-watches,
+.header-menu-item:hover .sub-accessories, 
+.header-menu-item:hover .sub-watch-bands
+ {
+	display: block;
+}
+
+.header-menu-link {
+	text-decoration: none;
+	color: var(--text-color);
+	text-transform: capitalize;
+}
+.new {
+	min-width: 100px;
+}
+/*-----------------------------------------*/
+.header__title{
+	position: relative;
+}
+.text-wrap-link {
+	position: absolute;
+	top: 10rem;
+	left: 30rem;
+}
+.wrap-link a:link, .wrap-link a:visited {
+	color: white;
+	text-transform: uppercase;
+	border: 1px white solid;
+	border-radius: 2px;
+	box-sizing: border-box;
+	padding: 3px;
+	letter-spacing: 1px;
+	width: 190px;
+	display: block;
+	text-decoration: none;
+}
+.wrap-link a:hover{
+	background-color: #273751;
+	border-color: #273751;
+	text-decoration: none;
+}
+
+.wrap-text  {
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.introducing {
+	font-size: 16px;
+	letter-spacing: 4px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.a-new-shade, .of-gold {
+	font-size: 40px;
+    letter-spacing: 11px;
+    text-align: center;
+    line-height: 35px;
+}
+.a-new-shade{
+	margin-top: 2px;
+	margin-bottom: 13px;
+}
+.of-gold {
+	margin-bottom: 20px;
+}
+
+.wrap-link {
+	padding: 0 130px;
+	text-align: center;
+	font-size: 1.4rem;
+}
